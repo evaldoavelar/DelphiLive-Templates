@@ -11,12 +11,12 @@ C:\Users\<user>\Documents\Embarcadero\Studio\code_templates directory.
 
 
 
-
+##
 
 
 **Live Templates** são esqueleto de código reutilizáveis. Vários Templates estão disponíveis para Delphi e C ++ no Editor de Códigos.
 
-Para usar algum tamplate dete repositório, salve o arquivo xml em C:\Program Files (x86)\Embarcadero\Studio\19.0\ObjRepos\en\Code_Templates.
+Para usar algum template deste repositório, salve o arquivo xml em C:\Program Files (x86)\Embarcadero\Studio\19.0\ObjRepos\en\Code_Templates.
 
 ou  C:\Users\<usuário>\Documents\Embarcadero\Studio\code_templates.
 

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate	xmlns="http://schemas.borland.com/Delphi/2005/codetemplates"
+				version="1.0.0">
+	<template name="ClasseCompleta" invoke="manual">
+		<description>
+		   Classe Base
+		</description>
+		<author>
+			Evaldo
+		</author>
+        <point name="classname">
+            <text>
+                Classe
+            </text>
+            <hint>
+                PointHint
+            </hint>
+        </point>
+        <point name="interfacename">
+			<script language="Delphi">
+				InvokeCodeCompletion;
+			</script>
+			<text>
+				Interface
+			</text>
+			<hint>
+				Interface name
+			</hint>
+		</point>
+		<code language="Delphi" context="typedecl" delimiter="|"><![CDATA[T|classname| = class(TInterfacedObject, I|interfacename|)
+
+  public
+    constructor Create();
+    destructor Destroy; override;
+    class function New: I|interfacename|;
+  end;
+
+implementation
+
+{ TClasseBase }
+
+constructor T|classname|.Create;
+begin
+
+end;
+
+destructor T|classname|.Destroy;
+begin
+
+  inherited;
+end;
+
+class function T|classname|.New: I|interfacename|;
+begin
+  result := Self.Create;
+end;]]>
+		</code>
+	</template>
+</codetemplate>

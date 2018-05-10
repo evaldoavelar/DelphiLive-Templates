@@ -7,7 +7,12 @@ To use some repository template, save the xml file in C:\Program Files (x86)\Emb
 
 C:\Users\<user>\Documents\Embarcadero\Studio\code_templates directory.
 
-[More info] (http://docwiki.embarcadero.com/RADStudio/Tokyo/en/Live_Templates)
+[More info](http://docwiki.embarcadero.com/RADStudio/Tokyo/en/Live_Templates)
+
+
+
+
+
 
 **Live Templates** são esqueleto de código reutilizáveis. Vários Templates estão disponíveis para Delphi e C ++ no Editor de Códigos.
 
@@ -16,4 +21,4 @@ Para usar algum tamplate dete repositório, salve o arquivo xml em C:\Program Fi
 ou  C:\Users\<usuário>\Documents\Embarcadero\Studio\code_templates.
 
 
-[Mais informações] (http://docwiki.embarcadero.com/RADStudio/Tokyo/en/Live_Templates)
+[Mais informações](http://docwiki.embarcadero.com/RADStudio/Tokyo/en/Live_Templates)

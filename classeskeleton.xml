@@ -32,7 +32,7 @@
   public
     constructor Create();
     destructor Destroy; override;
-    class function New: I|interfacename|;
+    class function New: T|classname|;
   end;
 
 implementation
@@ -50,7 +50,7 @@ begin
   inherited;
 end;
 
-class function T|classname|.New: I|interfacename|;
+class function T|classname|.New: T|classname|;
 begin
   result := Self.Create;
 end;]]>
